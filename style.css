@@ -1,0 +1,448 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+@font-face {
+    font-family: FineSerif.ttf;
+    src: url(FineSerif.ttf);
+}
+
+
+img {
+    position: fixed;
+    right: 1px;
+    z-index: -2;
+}
+#content {
+    transform: rotate(-30deg);
+    transform-origin: left 1917px;
+}
+
+#minirond {
+    position: fixed;
+        background-color: white;
+        width: 94px;
+        height: 94px;
+        left: 1120px;
+        top: 498px;
+        border-radius: 100%;
+        z-index: 19;
+}
+
+
+
+#a1 {
+    position: fixed;
+font-size: 23px;
+font-family: FineSerif.ttf;
+z-index: 30;
+color: black;
+left: 1051px;
+top: 470px;
+transform: rotate(-60deg);
+}
+#a2 {
+    position: fixed;
+    font-size: 23px;
+    font-family: FineSerif.ttf;
+    z-index: 30;
+    color: black;
+    left: 1057px;
+    top: 459px;
+    transform: rotate(-56deg);
+}
+#a3 {
+    position: fixed;
+    font-size: 23px;
+    font-family: FineSerif.ttf;
+    z-index: 30;
+    color: black;
+    left: 1065px;
+    top: 446px;
+    transform: rotate(-50deg);
+}
+#a4 {
+    position: fixed;
+        font-size: 23px;
+        font-family: FineSerif.ttf;
+        z-index: 30;
+        color: black;
+        left: 1079px;
+        top: 433px;
+        transform: rotate(-37deg);
+}
+#a5 {
+    position: fixed;
+    font-size: 23px;
+    font-family: FineSerif.ttf;
+    z-index: 30;
+    color: black;
+    left: 1091px;
+    top: 425px;
+    transform: rotate(-31deg);
+}
+#a6 {
+    position: fixed;
+    font-size: 23px;
+    font-family: FineSerif.ttf;
+    z-index: 30;
+    color: black;
+    left: 1101px;
+    top: 419px;
+    transform: rotate(-27deg);
+}
+#a7 {
+    position: fixed;
+    font-size: 23px;
+    font-family: FineSerif.ttf;
+    z-index: 30;
+    color: black;
+    left: 1110px;
+    top: 416px;
+    transform: rotate(-25deg);
+}
+#a8 {
+    position: fixed;
+        font-size: 22px;
+        font-family: FineSerif.ttf;
+        z-index: 30;
+        color: black;
+        left: 1115px;
+        top: 413px;
+        transform: rotate(-21deg);
+}
+#a9 {
+    position: fixed;
+        font-size: 23px;
+        font-family: FineSerif.ttf;
+        z-index: 30;
+        color: black;
+        left: 1128px;
+        top: 408px;
+        transform: rotate(-17deg);
+}
+#a10 {
+    position: fixed;
+    font-size: 23px;
+    font-family: FineSerif.ttf;
+    z-index: 30;
+    color: black;
+    left: 1143px;
+    top: 405px;
+    transform: rotate(-10deg);
+}
+#a11 {
+    position: fixed;
+    font-size: 23px;
+    font-family: FineSerif.ttf;
+    z-index: 30;
+    color: black;
+    left: 1153px;
+    top: 404px;
+    transform: rotate(-11deg);
+}
+#bauhaus {
+    background-color: red;
+    z-index: 21;
+    font-family: FineSerif.ttf;
+    font-weight: bold;
+}
+#B {
+    position: fixed;
+    color: black;
+    font-size: 53px;
+    left: 1162px;
+    top: 397px;
+    transform: rotate(-1deg);
+}
+#A {
+    position: fixed;
+    color: #FFC107;
+    font-size: 53px;
+    left: 1190px;
+    top: 402px;
+    transform: rotate(18deg);
+}
+#U {
+    position: fixed;
+        font-size: 53px;
+        left: 1220px;
+        top: 417px;
+        transform: rotate(29deg);
+}
+#h {
+    position: fixed;
+        font-size: 53px;
+        left: 1246px;
+        top: 443px;
+        transform: rotate(53deg);
+}
+#a {
+    position: fixed;
+    font-size: 53px;
+    left: 1264px;
+    top: 485px;
+    transform: rotate(78deg);
+}
+#u {
+    position: fixed;
+        font-size: 53px;
+        left: 1270px;
+        top: 520px;
+        transform: rotate(93deg);
+}
+#s {
+    position: fixed;
+    font-size: 53px;
+    left: 1276px;
+    top: 551px;
+    transform: rotate(93deg);
+}
+#demicercle {
+    position: fixed;
+    width: 149px;
+    height: 61px;
+    left: 1262px;
+    top: 279px;
+    -webkit-border-radius: 50% / 60% 60% 40% 40%;
+    border-radius: 50% / 100% 100% 0 0;
+    border: 2.5px solid grey;
+    transform: rotate(46deg);
+    border-bottom: none;
+    z-index: 1;
+}
+#demicercle02 {
+    position: fixed;
+        width: 201px;
+        height: 104px;
+        left: 1017px;
+        top: 494px;
+        border-radius: 50% / 100% 100% 0 0;
+        border-bottom: none;
+        background-color: pink;
+        transform: rotate(-90deg);
+        z-index: 13;
+}
+#oeil {
+    position: fixed;
+        left: 1177px;
+        top: 522px;
+        background-color: grey;
+        width: 9px;
+        height: 9px;
+        z-index: 17;
+}
+#trait01 {
+    position: fixed;
+    left: 1159px;
+    top: 498px;
+    background-color: grey;
+    width: 3px;
+    height: 59px;
+    z-index: 14;
+}
+#trait02 {
+    position: fixed;
+    left: 1162px;
+    top: 555px;
+    background-color: grey;
+    width: 6px;
+    height: 24px;
+    z-index: 15;
+}
+#trait03 {
+    position: fixed;
+        top: 579px;
+        left: 1168px;
+        background-color: grey;
+        width: 7px;
+        height: 13px;
+        z-index: 16;
+}
+
+#rondhaut {
+    position: fixed;
+    top: 80px;
+    left: 1058px;
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    z-index: 10;
+}
+#bas {
+    background-color: yellow;
+}
+
+#carreB04 {
+    position: fixed;
+        background-color: white;
+        width: 92px;
+        height: 92px;
+        left: 1306px;
+        top: 585px;
+        z-index: 7;
+}
+
+#rondnoir {
+
+        position: fixed;
+        background-color: black;
+        width: 37px;
+        height: 37px;
+        left: 1288px;
+        top: 658px;
+        border-radius: 100%;
+        z-index: 6;
+}
+
+#carreG02 {
+        position: fixed;
+        background-color: grey;
+        width: 126px;
+        height: 128px;
+        left: 1268px;
+        top: 588px;
+        z-index: 5;
+}
+#haut {
+    position: fixed;
+        background-color: black;
+        width: 100px;
+        height: 291px;
+        left: 1168px;
+        top: 445px;
+        border-radius: 0px 100px 0px 0px;
+}
+#demicercleborder {
+    position: fixed;
+    width: 144px;
+    height: 61px;
+    left: 1273px;
+    top: 605px;
+    -webkit-border-radius: 50% / 60% 60% 40% 40%;
+    border-radius: 50% / 100% 100% 0 0;
+    border: 2.5px solid grey;
+    transform: rotate(46deg);
+    border-bottom: none;
+    z-index: 15;
+}
+#bandeN {
+    position: fixed;
+    background-color: black;
+    width: 224px;
+    height: 20px;
+    left: 1170px;
+    top: 716px;
+}
+
+#date02 {
+    position: fixed;
+        width: 80px;
+        height: 40px;
+        left: 1306px;
+        top: 823px;
+        font-size: 27px;
+        letter-spacing: 10px;
+        font-family: sans-serif;
+        font-weight: bold;
+}
+
+
+#rect03 {
+    position: fixed;
+    background-color: pink;
+    width: 229px;
+    height: 90px;
+    left: 1165px;
+    top: 743px;
+}
+
+
+#carreB2 {
+    position: fixed;
+        background-color: white;
+        width: 78px;
+        height: 70px;
+        z-index: 6;
+}
+#date {
+    position: fixed;
+        width: 115px;
+        height: 29px;
+        top: 783px;
+        left: 1169px;
+        font-size: 20px;
+        letter-spacing: 3px;
+        font-family: sans-serif;
+        font-weight: bold;
+}
+
+#wei {
+    position: fixed;
+    width: 115px;
+    height: 29px;
+    top: 857px;
+    font-size: 33px;
+    font-family: sans-serif;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+}
+
+#us {
+    position: fixed;
+        width: 115px;
+        height: 29px;
+        top: 710px;
+        left: 989px;
+        font-size: 31px;
+        font-family: sans-serif;
+        letter-spacing: -3.5px;
+        font-weight: bold;
+}
+
+#aMAJ {
+    position: fixed;
+        width: 115px;
+        height: 29px;
+        top: 635px;
+        left: 909px;
+        font-size: 112px;
+        font-family: sans-serif;
+        letter-spacing: -0.5px;
+        font-weight: bold;
+}
+#bande {
+    position: fixed;
+        background-color: black;
+        width: 139px;
+        height: 19px;
+        top: 829px;
+        z-index: 4;
+}
+
+#carreG {
+    position: fixed;
+    background-color: silver;
+    width: 138px;
+    height: 105px;
+    z-index: 3;
+}
+#carreB {
+    position: fixed;
+        background-color: white;
+        width: 177px;
+        height: 170px;
+        z-index: 2;
+}
+#rect01 {
+    position: fixed;
+    left: 1090px;
+    background-color: black;
+    width: 215px;
+    height: 283px;
+    top: 759px;
+    border-radius: 0px 0px 105px 105px;
+    z-index: 1;
+}
